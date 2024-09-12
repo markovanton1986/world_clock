@@ -1,0 +1,66 @@
+#root {
+  padding-top: 100px;
+}
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 200px;
+  display: block;
+  height: 30px;
+}
+
+.btn {
+  height: 35px;
+}
+
+.clock-item {
+  text-align: left;
+  margin: 10px auto;
+  width: 800px;
+  display: flex;
+}
+
+.name-clock {
+  margin-right: 20px;
+}
+
+.clock {
+  width: 100px;
+  text-align: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.timer {
+  border: 1px solid black;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: large;
+}
+
+.clock button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
