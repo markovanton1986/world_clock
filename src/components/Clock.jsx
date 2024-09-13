@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import Moment from "react-moment";
-import "moment-timezone";
+import Moment from 'react-moment';
+import 'moment-timezone';
 import { nanoid } from 'nanoid';
 
 export default class Clock extends Component {
